@@ -970,11 +970,13 @@ textarea {
   display: flex;
   justify-content: center;
   align-items: center;
+  letter-spacing: 0.03em;
 }
 
 .check-link {
   text-decoration-line: underline;
   color: var(--button--bg--color);
+  letter-spacing: 0.03em;
 }
 
 .checkbox {
@@ -982,6 +984,7 @@ textarea {
   width: 16px;
   height: 15px;
   border: 2px solid var(--title--color);
+  letter-spacing: 0.03em;
   border-radius: 2px;
   background-color: var(--white--title--color);
   background-position: center;
